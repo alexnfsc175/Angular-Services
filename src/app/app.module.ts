@@ -10,7 +10,7 @@ import { CursosModule } from './cursos/cursos.module';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
   ],
   imports: [
     BrowserModule,
@@ -19,7 +19,7 @@ import { CursosModule } from './cursos/cursos.module';
     CriarCursoModule,
     CursosModule
   ],
-  providers: [CursosService], // Será usada uma unica instancia para toda a aplicação
+  // providers: [CursosService], // Será usada uma unica instancia para toda a aplicação
   bootstrap: [AppComponent]
 })
 export class AppModule { }

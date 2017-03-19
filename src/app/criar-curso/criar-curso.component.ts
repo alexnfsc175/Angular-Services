@@ -5,7 +5,8 @@ import { CursosService } from './../cursos/cursos.service';
 @Component({
   selector: 'app-criar-curso',
   templateUrl: './criar-curso.component.html',
-  styleUrls: ['./criar-curso.component.scss']
+  styleUrls: ['./criar-curso.component.scss'],
+  providers: [CursosService] // Se declarar aqui sera criada uma instancia exclusiva para esse Component
 })
 export class CriarCursoComponent implements OnInit {
 
