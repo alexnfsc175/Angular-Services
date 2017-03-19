@@ -7,7 +7,7 @@ import { CursosService } from './cursos.service';
   selector: 'app-cursos',
   templateUrl: './cursos.component.html',
   styleUrls: ['./cursos.component.scss'],
-  providers: [CursosService] // Se declarar aqui sera criada uma instancia exclusiva para esse Component
+  // providers: [CursosService] // Se declarar aqui sera criada uma instancia exclusiva para esse Component
 })
 export class CursosComponent implements OnInit {
 
